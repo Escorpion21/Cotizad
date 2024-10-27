@@ -1,0 +1,50 @@
+
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+<div id="container"><img src="img/crypto.svg">
+<div id="coin-container">
+    <form id="coin-form">
+        
+        <div class="coin-input-container">
+        <label for="coin">Elige tu moneda</label>
+<select class="coin-input" id="coin"> 
+    <option  value="USD">Dolar</option>
+    <option  value="EUR">Euro</option>
+    <option  value="ARS">Peso Argentinos</option>
+    <option  value="VES">Bolivares</option>
+</select>
+    </div>
+    
+    <div class="coin-input-container">
+ 
+            <label for="crypto">Elige tu criptomoneda</label>
+    <select class="coin-input" id="crypto"> 
+        <option  value="BTC">Bitcoin</option>
+        <option  value="ETH">Ethereum</option>
+        <option  value="AXS">AXS</option>
+        <option  value="BNB">BNB</option>
+    </select>
+        </div>
+        <div class="coins-input-container"> 
+            <label for="amount"> Elige tu  cryptomoneda</label>
+            <input type="text" class="coin-input" id="amount" placeholder="Monto">
+
+
+        </div>
+        <button type="submit" id="form-btn">Cotizar</button>
+</form>
+<div id="coin-info">
+
+</div>
+</div>
+</div>
+
+    <script src="index.js"></script>
+</body>
+</html>
